@@ -50,20 +50,3 @@
 .title-with-sidelines-both:after {
     margin-left: 10px;
 }
-
-.title-with-sidelines-right {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #988780;
-    font-weight: bold;
-}
-.title-with-sidelines-right:after {
-    margin-left: 10px;
-    display: inline-block;
-    content: "";
-    height: 2px;
-    background-color: #988780;
-    width: 70%;
-}
