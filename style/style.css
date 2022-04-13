@@ -1,0 +1,22 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+.logo-img {
+    height:inherit;
+    width: auto;
+}
+.hero-section video{
+    filter: brightness(50%);
+    width: 100%;
+}
+.hero-section h1 {
+    z-index: 1;
+    position: absolute;
+}
+.fit-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
