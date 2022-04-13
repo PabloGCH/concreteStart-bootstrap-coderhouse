@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>concreteStart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="assets/favicon_io/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+</head>
+<body class="bg-dark">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white container-fluid">
+            <a class="navbar-brand fw-bold" href="#">
+                <img class="logo-img" src="../assets/logo.png" alt="logo">
+                ConcreteStart
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre-nosotros.html">Quienes Somos ?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="trabajos-realizados.html">Trabajos realizados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row bg-light mt-2">
+                <h1 class="title-with-sidelines-both">Contacto</h1>
+                <form class="container">
+                    <div class="row mb-4 d-flex justify-content-center">
+                        <div class="col col-12 col-sm-8 col-md-6">
+                            <div class="container-fluid d-flex flex-column">
+                                <div class="d-flex flex-row align-items-center mb-4">
+                                    <label class="form-label my-0" for="nombre">Nombre: </label>
+                                    <input class="form-control ms-2" id="nombre" required type="text" placeholder="Ingrese su nombre">
+                                </div>
+                                <div class="d-flex flex-row align-items-center mb-4">
+                                    <label class="form-label my-0" for="email">email: </label>
+                                    <input class="form-control ms-2" id="email" required type="email" placeholder="ejemplo@email.com">
+                                </div>
+                                <div class="d-flex flex-row mb-4 mb-md-0">
+                                    <select class="form-select">
+                                        <option hidden selected>Usted es ?</option>
+                                        <option>Individuo</option>
+                                        <option>Empresa</option>
+                                        <option>Entidad Gubernamental</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-8 col-md-6">
+                            <div class="container-fluid" style="height: 100%;">
+                                <div class="form-floating" style="height: 100%;">
+                                    <textarea class="form-control" placeholder="" id="comment" style="height: 100%; resize: none;"></textarea>
+                                    <label for="comment">Comentario: </label>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4 d-flex justify-content-center"">
+                        <div class="col col-12 col-sm-8 col-md-12">
+                            <div class="container-fluid">
+                                <div class="form-check d-flex flex-row">
+                                    <input class="form-check-input" id="checkbox" type="checkbox">
+                                    <label class="form-check-label ms-2" for="checkbox">Desea recibir notificaciones de ofertas o promociones ?</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4 d-flex justify-content-center">
+                        <div class="col col-12 col-sm-8 col-md-6">
+                            <div class="container-fluid d-flex justify-content-around">
+                                <button class="btn btn-danger me-2 me-sm-0" type="reset">Limpiar formulario</button>
+                                <button class="btn btn-primary" type="submit">Enviar formulario</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="mt-5 text-white fs-10">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, facilis, expedita pariatur velit molestias nobis quisquam cumque corporis labore quasi accusantium in eius? Id fugiat sapiente enim culpa, sunt molestiae nobis rerum, veniam quasi beatae quisquam est. Dolor impedit quas possimus hic atque, veniam iste, at ipsam perferendis error sequi harum beatae officiis velit, deleniti quasi assumenda fugit sed odio fuga modi et quae pariatur? Fuga similique qui iste aliquam voluptatibus, earum sint nesciunt incidunt rem harum adipisci ipsa possimus minus veniam magnam aperiam tempora. Animi dolore veritatis veniam magni soluta voluptatum cum. Non aliquid doloremque omnis libero exercitationem modi. 
+    </footer>
+</body>
+</html>
