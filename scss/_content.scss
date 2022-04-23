@@ -1,0 +1,23 @@
+/*background color para el body*/
+.body-color {
+    background-color: $primary;
+}
+/*Color para contenedores*/
+.div-bg-color {
+    background-color: $secondary;
+}
+/*Color para el header de las tablas*/
+.table thead tr {
+    color: white;
+    background-color: $primary;
+}
+/*Clase para ajustar imagenes*/
+.fit-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/*FOOTER*/
+footer p{
+    font-size: 14px;
+}

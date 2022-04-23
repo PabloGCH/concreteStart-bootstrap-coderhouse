@@ -1,0 +1,108 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0px;
+  padding: 0px; }
+
+/*HERO SECTION*/
+.hero-section video {
+  filter: brightness(50%);
+  width: 100%; }
+
+.hero-section h1 {
+  z-index: 1;
+  position: absolute; }
+
+/*background color para el body*/
+.body-color {
+  background-color: #13292A; }
+
+/*Color para contenedores*/
+.div-bg-color {
+  background-color: #E7DED9; }
+
+/*Color para el header de las tablas*/
+.table thead tr {
+  color: white;
+  background-color: #13292A; }
+
+/*Clase para ajustar imagenes*/
+.fit-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; }
+
+/*FOOTER*/
+footer p {
+  font-size: 14px; }
+
+/*Clase para titulos con lineas a los costados*/
+.title-with-sidelines-both {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #988780;
+  font-weight: bold; }
+  .title-with-sidelines-both:before, .title-with-sidelines-both:after {
+    display: inline-block;
+    content: "";
+    height: 2px;
+    background-color: #988780;
+    width: 50%; }
+  .title-with-sidelines-both:before {
+    margin-right: 10px; }
+  .title-with-sidelines-both:after {
+    margin-left: 10px; }
+
+.navbar-toggler {
+  box-shadow: none; }
+  .navbar-toggler:focus, .navbar-toggler:active {
+    border-color: gray;
+    box-shadow: 0 0 0 0.2rem #9887809c; }
+
+@media screen and (min-width: 992px) {
+  .navbar-nav .nav-item .nav-link {
+    border-left: 2px solid #181818; }
+    .navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link:focus {
+      border-left: 2px solid #988780; } }
+
+.navbar-nav .nav-item .nav-link {
+  color: #181818;
+  font-weight: bold; }
+  .navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link:focus {
+    color: #988780; }
+
+/*Inputs*/
+.form-control {
+  border-color: gray; }
+  .form-control:focus {
+    border-color: gray;
+    box-shadow: 0 0 0 0.2rem #9887809c; }
+
+/*Selects*/
+.form-select {
+  border-color: gray; }
+  .form-select:focus {
+    border-color: gray;
+    box-shadow: 0 0 0 0.2rem #9887809c; }
+
+/*Checkbox*/
+.form-check-input {
+  border-color: gray;
+  transition-duration: 0.15s; }
+  .form-check-input:focus {
+    border-color: gray;
+    box-shadow: 0 0 0 0.2rem #9887809c; }
+
+/*Clase para botones*/
+.button {
+  color: white;
+  background-color: #13292A;
+  border: none; }
+  .button:hover {
+    color: white;
+    background-color: #988780; }
+  .button:focus, .button:active {
+    background-color: #988780;
+    box-shadow: 0 0 0 0.2rem #9887809c; }

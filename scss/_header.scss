@@ -1,0 +1,23 @@
+
+.navbar-toggler {
+    box-shadow: none;
+    &:focus, &:active {
+        border-color: gray;
+        box-shadow: 0 0 0 .2rem $highlight-border;
+    }
+}
+@media screen and (min-width: 992px) {
+    .navbar-nav .nav-item .nav-link{
+        border-left: 2px solid rgb(24, 24, 24);
+        &:hover, &:focus {
+            border-left: 2px solid $highlight;
+        }
+    }
+}
+.navbar-nav .nav-item .nav-link{
+    color: rgb(24, 24, 24);
+    font-weight: bold;
+    &:hover, &:focus {
+        color: $highlight;
+    }
+}

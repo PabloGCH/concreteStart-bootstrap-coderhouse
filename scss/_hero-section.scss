@@ -1,0 +1,11 @@
+/*HERO SECTION*/
+.hero-section{
+    video {
+        filter: brightness(50%);
+        width: 100%;
+    }
+    h1 {
+        z-index: 1;
+        position: absolute;
+    }
+}

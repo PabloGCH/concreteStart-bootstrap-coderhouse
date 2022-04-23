@@ -1,0 +1,39 @@
+/*Inputs*/
+.form-control {
+    border-color: gray;
+    &:focus {
+        border-color: gray;
+        box-shadow: 0 0 0 .2rem $highlight-border;
+    }
+}
+/*Selects*/
+.form-select {
+    border-color: gray;
+    &:focus {
+        border-color: gray;
+        box-shadow: 0 0 0 .2rem $highlight-border;
+    }
+}
+/*Checkbox*/
+.form-check-input {
+    border-color: gray;
+    transition-duration: 0.15s;
+    &:focus {
+        border-color: gray;
+        box-shadow: 0 0 0 .2rem $highlight-border;
+    }
+}
+/*Clase para botones*/
+.button {
+    color: white;
+    background-color: $primary;
+    border: none;
+    &:hover{
+        color: white;
+        background-color: $highlight;
+    }
+    &:focus, &:active {
+        background-color: $highlight;
+        box-shadow: 0 0 0 .2rem $highlight-border;
+    }
+}
