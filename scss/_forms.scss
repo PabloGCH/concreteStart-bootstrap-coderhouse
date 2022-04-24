@@ -14,19 +14,19 @@
     @extend .form-control;
     transition-duration: 0.15s;
     &:checked {
-        background-color: $highlight;
-        border-color: $highlight;
+        background-color: map-get($colors , highlight );
+        border-color: map-get($colors , highlight );
     }
 
 }
 /*Clase para botones*/
 .button {
     color: white;
-    background-color: $primary;
+    background-color: map-get($colors , primary );
     border: none;
     &:hover{
         color: white;
-        background-color: $highlight;
+        background-color: map-get($colors , highlight );
     }
     &:focus, &:active {
         @include focused-active-bg-and-borders;

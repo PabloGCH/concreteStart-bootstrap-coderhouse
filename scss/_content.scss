@@ -1,15 +1,15 @@
 /*background color para el body*/
 .body-color {
-    background-color: $primary;
+    background-color: map-get($colors , primary );
 }
 /*Color para contenedores*/
 .div-bg-color {
-    background-color: $secondary;
+    background-color: map-get($colors , secondary);
 }
 /*Color para el header de las tablas*/
 .table thead tr {
     color: white;
-    background-color: $primary;
+    background-color: map-get($colors , primary );
 }
 /*Clase para ajustar imagenes*/
 .fit-image {

@@ -3,13 +3,13 @@
     @include centerXY;
     margin-bottom: 10px;
     text-align: center;
-    color: $highlight;
+    color: map-get($colors , highlight);
     font-weight: bold;
     &:before, &:after {
         display: inline-block;
         content: "";
         height: 2px;
-        background-color: $highlight;
+        background-color: map-get($colors , highlight);
         width: 50%;
     }
     &:before {

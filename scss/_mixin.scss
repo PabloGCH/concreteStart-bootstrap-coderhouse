@@ -2,7 +2,7 @@
 /*para ser utilizado en _forms y en el toggler del _header*/
 @mixin focused-active-bg-and-borders {
     border-color: gray;
-    box-shadow: 0 0 0 .2rem $highlight-border;
+    box-shadow: 0 0 0 .2rem map-get($colors , highlight-border );
 }
 /*Centra horizontal/verticalmente el contenido*/
 @mixin centerXY{

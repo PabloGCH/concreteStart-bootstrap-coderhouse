@@ -1,4 +1,6 @@
-$primary: #13292A;//Usado en el background del body y en el header de la tabla
-$secondary: #E7DED9;//Usado en el background de los contenedores
-$highlight: #988780;//Usado para titulos y al hacer hover/focus en los links del header
-$highlight-border: #9887809c;//Usado para resaltar bordes de inputs/botones/selects
+$colors: (
+    primary: #13292A,//Usado en el background del body y en el header de la tabla
+    secondary: #E7DED9,//Usado en el background de los contenedores
+    highlight: #988780,//Usado para titulos y al hacer hover/focus en los links del header
+    highlight-border: #9887809c,//Usado para resaltar bordes de inputs/botones/selects
+);
