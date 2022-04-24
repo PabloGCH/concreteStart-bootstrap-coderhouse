@@ -1,0 +1,12 @@
+/*Borde gris y box shadow para inputs*/
+/*para ser utilizado en _forms y en el toggler del _header*/
+@mixin focused-active-bg-and-borders {
+    border-color: gray;
+    box-shadow: 0 0 0 .2rem $highlight-border;
+}
+/*Centra horizontal/verticalmente el contenido*/
+@mixin centerXY{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

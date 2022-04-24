@@ -1,9 +1,7 @@
 /*Clase para titulos con lineas a los costados*/
 .title-with-sidelines-both {
+    @include centerXY;
     margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     color: $highlight;
     font-weight: bold;

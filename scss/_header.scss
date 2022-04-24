@@ -2,8 +2,7 @@
 .navbar-toggler {
     box-shadow: none;
     &:focus, &:active {
-        border-color: gray;
-        box-shadow: 0 0 0 .2rem $highlight-border;
+        @include focused-active-bg-and-borders;
     }
 }
 @media screen and (min-width: 992px) {
