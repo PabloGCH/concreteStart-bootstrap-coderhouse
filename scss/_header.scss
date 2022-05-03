@@ -1,16 +1,10 @@
-
+header {
+    background-color: map-get($colors , tertiary);
+}
 .navbar-toggler {
     box-shadow: none;
     &:focus, &:active {
         @include focused-active-bg-and-borders;
-    }
-}
-@media screen and (min-width: 992px) {
-    .navbar-nav .nav-item .nav-link{
-        border-left: 2px solid rgb(24, 24, 24);
-        &:hover, &:focus {
-            border-left: 2px solid map-get($colors , highlight );
-        }
     }
 }
 .navbar-nav .nav-item .nav-link{
@@ -18,5 +12,11 @@
     font-weight: bold;
     &:hover, &:focus {
         color: map-get($colors , highlight );
+    }
+    @media screen and (min-width: 992px) {
+        border-left: 2px solid rgb(24, 24, 24);
+        &:hover, &:focus {
+            border-left: 2px solid map-get($colors , highlight );
+        }
     }
 }

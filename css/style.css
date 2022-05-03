@@ -17,16 +17,16 @@
 
 /*background color para el body*/
 .body-color {
-  background-color: #13292A; }
+  background-color: #2C1214; }
 
 /*Color para contenedores*/
 .div-bg-color {
-  background-color: #E7DED9; }
+  background-color: #f0e4de; }
 
 /*Color para el header de las tablas*/
 .table thead tr {
   color: white;
-  background-color: #13292A; }
+  background-color: #2C1214; }
 
 /*Clase para ajustar imagenes*/
 .fit-image {
@@ -45,60 +45,62 @@ footer p {
   align-items: center;
   margin-bottom: 10px;
   text-align: center;
-  color: #988780;
+  color: #6d635f;
   font-weight: bold; }
   .title-with-sidelines-both:before, .title-with-sidelines-both:after {
     display: inline-block;
     content: "";
     height: 2px;
-    background-color: #988780;
+    background-color: #6d635f;
     width: 50%; }
   .title-with-sidelines-both:before {
     margin-right: 10px; }
   .title-with-sidelines-both:after {
     margin-left: 10px; }
 
+header {
+  background-color: white; }
+
 .navbar-toggler {
   box-shadow: none; }
   .navbar-toggler:focus, .navbar-toggler:active {
     border-color: gray;
-    box-shadow: 0 0 0 0.2rem #9887809c; }
-
-@media screen and (min-width: 992px) {
-  .navbar-nav .nav-item .nav-link {
-    border-left: 2px solid #181818; }
-    .navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link:focus {
-      border-left: 2px solid #988780; } }
+    box-shadow: 0 0 0 0.2rem #6d635fb4; }
 
 .navbar-nav .nav-item .nav-link {
   color: #181818;
   font-weight: bold; }
   .navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link:focus {
-    color: #988780; }
+    color: #6d635f; }
+  @media screen and (min-width: 992px) {
+    .navbar-nav .nav-item .nav-link {
+      border-left: 2px solid #181818; }
+      .navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link:focus {
+        border-left: 2px solid #6d635f; } }
 
 /*Inputs*/
 .form-control, .form-select, .form-check-input {
   border-color: gray; }
   .form-control:focus, .form-select:focus, .form-check-input:focus {
     border-color: gray;
-    box-shadow: 0 0 0 0.2rem #9887809c; }
+    box-shadow: 0 0 0 0.2rem #6d635fb4; }
 
 /*Selects*/
 /*Checkbox*/
 .form-check-input {
   transition-duration: 0.15s; }
   .form-check-input:checked {
-    background-color: #988780;
-    border-color: #988780; }
+    background-color: #6d635f;
+    border-color: #6d635f; }
 
 /*Clase para botones*/
 .button {
   color: white;
-  background-color: #13292A;
+  background-color: #2C1214;
   border: none; }
   .button:hover {
     color: white;
-    background-color: #988780; }
+    background-color: #6d635f; }
   .button:focus, .button:active {
     border-color: gray;
-    box-shadow: 0 0 0 0.2rem #9887809c; }
+    box-shadow: 0 0 0 0.2rem #6d635fb4; }
