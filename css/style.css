@@ -104,3 +104,24 @@ header {
   .button:focus, .button:active {
     border-color: gray;
     box-shadow: 0 0 0 0.2rem #6d635fb4; }
+
+.work-slide {
+  height: 400px; }
+  .work-slide img {
+    object-fit: cover;
+    height: 90%;
+    width: auto; }
+
+.carousel-control-next, .carousel-control-prev {
+  background-color: rgba(109, 99, 95, 0.5); }
+  .carousel-control-next:hover, .carousel-control-prev:hover {
+    background-color: rgba(109, 99, 95, 0.5); }
+
+footer img {
+  width: 100px;
+  height: auto; }
+
+footer a {
+  color: white; }
+  footer a:hover {
+    color: #6d635f; }

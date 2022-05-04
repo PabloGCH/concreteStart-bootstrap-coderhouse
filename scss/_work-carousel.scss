@@ -1,0 +1,15 @@
+
+.work-slide {
+    height: 400px;
+    img {
+        object-fit: cover;
+        height: 90%;
+        width: auto;
+    }
+}
+.carousel-control-next, .carousel-control-prev {
+    background-color: transparentize(map-get($colors, highlight), 0.5);
+    &:hover {
+        background-color: transparentize(map-get($colors, highlight), 0.5);
+    }
+}
