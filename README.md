@@ -6,7 +6,7 @@ Proyecto final curso de desarrollo web de CoderHouse
 
 ### Descripción
 
-Un sitio web de una empresa de construcción ficticia que desarrolle como proyecto final para el curso de desarrollo web de CoderHouse.
+Un sitio web con maquetado full responsive de una empresa de construcción ficticia que desarrolle como proyecto final para el curso de desarrollo web de CoderHouse.
 Para ello hice uso de las siguientes tecnologías:
   - HTML: Para el maquetado de la página
   - Bootstrap: Para el maquetado de la página y para usar el navbar, carrusel y varios tipos de inputs y botones que vienen definidos en la librería.
