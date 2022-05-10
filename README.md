@@ -20,7 +20,7 @@ Después de clonar el repositorio, solo es necesario ejecutar en la terminal:
 ``` bash
 npm run-script watch-css
 ```
-Para detectar cambios en los archivo .scss.
+Para detectar cambios en los archivos .scss.
 
 ### Host
 
