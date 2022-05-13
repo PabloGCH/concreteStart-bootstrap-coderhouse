@@ -29,10 +29,19 @@
 .div-bg-color {
   background-color: #f0e4de; }
 
-/*Color para el header de las tablas*/
-.table thead tr {
-  color: white;
-  background-color: #2C1214; }
+/*Tabla*/
+.table {
+  font-size: 13px; }
+  @media screen and (min-width: 576px) {
+    .table {
+      font-size: 16px; } }
+  @media screen and (min-width: 992px) {
+    .table {
+      font-size: 18px; } }
+  .table thead tr {
+    /*Color para el header de las tablas*/
+    color: white;
+    background-color: #2C1214; }
 
 /*Clase para ajustar imagenes*/
 .fit-image {

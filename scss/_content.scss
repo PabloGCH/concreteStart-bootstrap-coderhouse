@@ -6,11 +6,22 @@
 .div-bg-color {
     background-color: map-get($colors , secondary);
 }
-/*Color para el header de las tablas*/
-.table thead tr {
-    color: white;
-    background-color: map-get($colors , primary );
+/*Tabla*/
+.table {
+    font-size: 13px;
+    @media screen and (min-width: 576px) {
+        font-size: 16px;
+    }
+    @media screen and (min-width: 992px) {
+        font-size: 18px;
+    }
+    thead tr {
+        /*Color para el header de las tablas*/
+        color: white;
+        background-color: map-get($colors , primary );
+    }
 }
+
 /*Clase para ajustar imagenes*/
 .fit-image {
     height: 100%;
